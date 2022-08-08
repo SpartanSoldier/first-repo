@@ -23,24 +23,29 @@
     <P>Hello and welcome to Infocast.<br/><br/>This is a small website contaning information about the world of ancient Greece.</p>
     </section>
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'SpartanArmy')">The Spartan Army</button>
+        <button class="tablinks active" onclick="openCity(event, 'SpartanArmy')">The Spartan Army</button>
         <button class="tablinks" onclick="openCity(event, 'SocialClasses')">Social Classes</button>
-        <button class="tablinks" onclick="openCity(event, 'boysinSparta')">boys in Sparta</button>
+        <button class="tablinks" onclick="openCity(event, 'boysinSparta')">Boys in Sparta</button>
+        <button class="tablinks" onclick="openCity(event, 'WarriorSociety')">Warrior Society</button>
+        <button class="tablinks" onclick="openCity(event, 'SpartanFacts')">Spartan Facts</button>
+        <button class="tablinks" onclick="openCity(event, 'girlsinSparta')">Girls in Sparta</button>
+        <button class="tablinks" onclick="openCity(event, 'history')">History</button>
       </div>
      
-   
-        <h2 class="HeaderText2"> The Spartans </h2>
-        <p>Interesting Facts about Sparta:<br/><br/><br/>
-        Boys were encouraged to steal food. ...<br/><br/>
-        Spartan men were required to stay fit and ready to fight until the age of 60.<br/><br/>
-        The term "spartan" is often used to describe something simple or without comfort.<br/>
-        The Spartans considered themselves to be direct descendents of the Greek hero Hercules.<br/><br/>
-    
-    <h6 class="HeaderText6"> Warrior Society</h6><br/><br/>
+        <div id="SpartanFacts" class="tabcontent">
+        <h2 class="HeaderText2">Spartan Facts </h2>
 
-Unlike their counterparts in the city of Athens, the Spartans didn't study philosophy, art, or theatre, they studied war.
+        <p>
+        Boys were encouraged to steal food. ...<br/>
+        Spartan men were required to stay fit and ready to fight until the age of 60.<br/>
+        The term "spartan" is often used to describe something simple or without comfort.<br/>
+        The Spartans considered themselves to be direct descendents of the Greek hero Hercules.</p>
+      </div>
+<div id="WarriorSociety" class="tabcontent">
+  <h3 class="HeaderText3S">Warrior Society</h3>
+<p>Unlike their counterparts in the city of Athens, the Spartans didn't study philosophy, art, or theatre, they studied war.
  The Spartans were widely considered to have the strongest army and the best soldiers of any city-state in Ancient Greece.
- All Spartan men trained to become warriors from the day they were born.<br/><br/></P>
+ All Spartan men trained to become warriors from the day they were born.</P></div>
  <div id="SpartanArmy" class="tabcontent">
 <h3 class="HeaderText3"> The Spartan Army</h3>
 <ul>
@@ -68,15 +73,17 @@ Helot - The helots were the largest portion of the population. They were basical
 They farmed their own land, but had to give half of their crops to the Spartans as payment.<br/>
  Helots were beaten once a year and were forced to wear clothing made from animal skins. Helots caught trying to escape were generally killed.<br/><br/>
 </div>
-<h4 class="HeaderText4">What was it like to grow up as a boy in Sparta?</h4><br/><br/>
+<div id="boysinSparta" class="tabcontent">
+<h4 class="HeaderText4">What was it like to grow up as a boy in Sparta?</h4>
 
 Spartan boys were trained to be soldiers from their youth.<br/>
  They were raised by their mothers until the age of seven and then they would enter a military school called the Agoge.<br/>
   At the Agoge the boys were trained how to fight, but also learned how to read and write.<br/>
 The Agoge was a tough school. The boys lived in barracks and were often beaten to make them tough.<br/>
  They were given little to eat in order to get used to what life would be like when they went to war. <br/>
- The boys were encouraged to fight one another. When the boys turned 20 they entered into the Spartan army.<br/><br/>
-
+ The boys were encouraged to fight one another. When the boys turned 20 they entered into the Spartan army.
+</div>
+<div id="girlsinSparta" class="tabcontent">
 <h7 class="HeaderText7">What was it like to grow up as a girl in Sparta?</h7> <br/><br/>
 
 
@@ -84,7 +91,8 @@ Spartan girls also went to school at the age of seven.<br/>
  Their school wasn't as tough as the boys, but they did train in athletics and exercise.<br/>
   It was important that the women stay fit so they would have strong sons who could fight for Sparta.<br/>
    The women of Sparta had more freedom and education than most Greek city-states at the time. Girls usually were married at the age of 18.<br/><br/>
-
+  </div>
+  <div id="history" class="tabcontent">
 <h5 class="HeaderText5">History</h3>
 
 The city of Sparta rose to power around 650 BC.<br/>
@@ -95,6 +103,7 @@ After the Persian Wars, Sparta went to war against Athens in the Peloponnesian W
  Sparta began to decline in the coming years and lost the Battle of Leuctra to Thebes in 371 BC.<br/>
   However, it remained an independent city-state until Greece was conquered by the Roman Empire in 146 BC.<br/>
     </P>
+  </div>
 </section>
 <footer> &copy; Henry Elliott 2022 </footer>
 </body>
