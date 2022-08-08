@@ -160,5 +160,11 @@ height: 100%;
 position: absolute;
   }
   #main{
-    background-image:url("images/hoplite.jpg");
+    background-image:url("../images/hoplite.jpg");
+  }
+  .HeaderText2C{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 25px;
+    font-weight: bolder;
+    color:goldenrod
   }
