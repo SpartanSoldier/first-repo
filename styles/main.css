@@ -174,3 +174,15 @@ position: absolute;
     font-weight: bolder;
     color: crimson;
   }
+  .HeaderText2SC{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffa500;
+  }
+  .HeaderText2SS{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffa500
+  }
