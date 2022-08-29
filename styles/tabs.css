@@ -32,4 +32,9 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  min-height: 400px;
+  background-color:rgba(250,235,215,0.3);
+}
+#SpartanArmy{
+  display:block;
 }
